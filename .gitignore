@@ -1,0 +1,94 @@
+# ============================================
+# CRITICAL: API Keys & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+credentials.json
+config.json
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# Cursor IDE
+.cursor/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================
+# Operating System
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Project Specific
+# ============================================
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Context directory (if it contains sensitive data)
+# Uncomment if you don't want to track context files
+# context/
+
+# Audio files (if generated during testing)
+# *.wav
+# *.mp3
+# *.ogg
